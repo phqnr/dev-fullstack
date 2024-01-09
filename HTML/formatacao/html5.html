@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recursos modernos: HTML 5</title>
+</head>
+
+<body>
+  <h1><code>Tag < video ></code></h1>
+  <video width="320" height="240" controls autoplay muted>
+    <source src="https://www.youtube.com/watch?v=0LwcvjNJTuM&ab_channel=LynyrdSkynyrdVEVO" type="video/mp4">
+    <source src="https://www.youtube.com/watch?v=0LwcvjNJTuM&ab_channel=LynyrdSkynyrdVEVO" type="video/ogg">
+    Your browser does not support the video tag.
+  </video><br><br>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/0LwcvjNJTuM?si=z7wXHCOKHuUFPxSS"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+
+  <hr>
+
+  <h1><code>Outros tipos de input</code></h1>
+  <ul>
+    <li>
+      <strong>Date: </strong>
+      <input type="date">
+    </li>
+    <li>
+      <strong>Datetime: </strong>
+      <input type="datetime">
+    </li>
+    <li>
+      <strong>Datetime-local: </strong>
+      <input type="datetime-local">
+    </li>
+    <li>
+      <strong>Month: </strong>
+      <input type="month">
+    </li>
+    <li>
+      <strong>Time: </strong>
+      <input type="time">
+    </li>
+    <li>
+      <strong>Week: </strong>
+      <input type="week">
+    </li>
+    <li>
+      <strong>Color: </strong>
+      <input type="color" value="#45a223">
+    </li>
+    <li>
+      <strong>Email: </strong>
+      <input type="email" placeholder="fulano@email.com">
+    </li>
+    <li>
+      <strong>Telephone: </strong>
+      <input type="tel" placeholder="Format: (84) 99908-0098" pattern="[0-9]{2}-[0-9]{5}-[0-9]-{4}">
+    </li>
+    <li>
+      <strong>Search: </strong>
+      <input type="search" list="online-stores">
+      <datalist id="online-stores" style="display:hidden;">
+        <option value="Amazon.com">
+        <option value="Zappos">
+        <option value="Buy.com">
+        <option value="Apple Store">
+        <option value="Threadless">
+      </datalist>
+    </li>
+    <li>
+      <strong>Range: </strong>
+      <input type="range" min="1" max="50">
+    </li>
+    <li>
+      <strong>Number: </strong>
+      <input type="number">
+    </li>
+    <li>
+      <strong>URL: </strong>
+      <input type="url">
+    </li>
+  </ul>
+
+</body>
+
+</html>
