@@ -1,0 +1,42 @@
+header {
+  color: #e16f0a;
+  background-color: #555;
+}
+
+body {
+  background-color: #9f9c9c;
+  background-image: url("https://i.pinimg.com/originals/06/0b/93/060b93de1794baab368976b26d7b4242.jpg");
+  /* background-size: 600px; */
+  background-repeat: cover;
+}
+
+main {
+  background-color: #e5e5e5;
+  border-width: 5px;
+  border-color: #e16f0a;
+  border-style: outset;
+}
+
+.box {}
+
+.box1 {
+  background-color: #e16f0a;
+  border: 4px dashed #555;
+  height: 100px;
+  width: 200px;
+}
+
+.box2 {
+  background-image: linear-gradient(to left, #e16f0a, #555);
+  border: 4px dotted #090909;
+  height: 100px;
+  width: 200px;
+}
+
+.box3 {
+  background-color: #0077ff;
+  border: 2px solid #555;
+  border-radius: 5%;
+  height: 100px;
+  width: 200px;
+}
