@@ -1,6 +1,89 @@
-.box {
-  border: 1px solid #232323;
+:root {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-size: 1.125rem;
+  padding: 2rem 0;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+
+h1,
+h2 {
+  font-family: "Roboto Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.feature,
+.catalog,
+.cta {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.cta-btn {
+  background-color: #000;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 999px;
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 2rem auto;
+  padding: 1rem 1.5rem;
+}
+
+.genres>li {
   display: inline-block;
-  margin-top: 40px;
-  width: 70px;
+  margin-top: 2rem;
+}
+
+.genres>li+li {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.genre>a,
+.see-more>a {
+  background-color: #43abf6;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 999px;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.see-more>a {
+  background-color: #000;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  padding: 2rem;
 }
