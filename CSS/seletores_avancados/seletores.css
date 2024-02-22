@@ -1,0 +1,35 @@
+/* seletor: nth-child() - 4th, 5th, 6th, nth */
+li:nth-child(3n-1) {
+  color: red;
+}
+
+/* odd: impar / even: par */
+li:nth-child(odd) {
+  color: darkgreen;
+}
+
+li:nth-child(3n) {
+  color: blue;
+}
+
+li:hover {
+  background-color: aqua;
+  width: 5rem;
+}
+
+input:focus {
+  background-color: blueviolet;
+}
+
+/* pseudo-elemento -> ::before e ::after */
+li::before {
+  content: "before / ";
+  color: darkgoldenrod;
+  font-size: 2rem;
+}
+
+li::after {
+  content: " / after";
+}
+
+li:not(:first-child) {}

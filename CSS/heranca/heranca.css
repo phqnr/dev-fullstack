@@ -1,0 +1,16 @@
+header {
+  background-color: #232323;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.parent {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: blue;
+}
+
+.child {
+  font-size: 2rem;
+}

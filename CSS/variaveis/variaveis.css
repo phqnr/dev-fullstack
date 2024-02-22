@@ -1,0 +1,12 @@
+:root {
+  --cor-principal: #3c59e7;
+  --cor-claro: #eaeaea;
+  --cor-escuro: #232323;
+  --prenchimento-pq: 1rem;
+  --preenchimento-md: 2rem;
+  --preenchimento-gd: 3rem;
+}
+
+header {
+  background-color: var(--cor-escuro);
+}
