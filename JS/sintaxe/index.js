@@ -8,7 +8,7 @@ console.error(nome);
 console.warn(idade);
 
 // window.alert("Me chamo " + nome);
-nome = window.parseInt(prompt("Insira o seu nome: ");
+nome = window.parseInt(prompt("Insira o seu nome: "));
 window.alert("Olá, " + nome + "!");
 window.confirm("Confirma o seu nome? ");
-window.alert("Nome confirmado! .::" + nome + "::.")
+window.alert("Nome confirmado! .::" + nome + "::.");
