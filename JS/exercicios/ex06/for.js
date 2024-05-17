@@ -10,10 +10,12 @@ if (op == 1) { // TABUADA
   }
   alert("Resultado da tabuada de " + num + ":\n\n" + mult);
 } else if (op == 2) {
-  const palavra = prompt(".:: PALAVRA PALÍNDROMA ::." + "\n\nInforme palavra a ser verificada")
-  let palavraInvertida = " ";
-  for (let i = palavra.length; i >= 0; i--) {
+  const palavra = prompt(".:: PALAVRA PALÍNDROMA ::." + "\n\nInforme palavra a ser verificada:")
+  let palavraInvertida = "";
+
+  for (let i = palavra.length - 1; i >= 0; i--) {
     palavraInvertida += palavra[i];
+    // alert(palavraInvertida);
   }
 
   if (palavra === palavraInvertida) {
